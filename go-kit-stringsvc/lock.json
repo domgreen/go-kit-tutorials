@@ -1,0 +1,48 @@
+{
+    "memo": "2b2cf47b8a1616efad3d4e5134309ac34e503ecba7279ba7936cacdc7ab87e46",
+    "projects": [
+        {
+            "name": "github.com/go-kit/kit",
+            "version": "v0.3.0",
+            "revision": "cc097dca15665f80f522271b959b3278dc631642",
+            "packages": [
+                "endpoint",
+                "log",
+                "transport/http"
+            ]
+        },
+        {
+            "name": "github.com/go-logfmt/logfmt",
+            "version": "v0.3.0",
+            "revision": "390ab7935ee28ec6b286364bba9b4dd6410cb3d5",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/go-stack/stack",
+            "version": "v1.5.2",
+            "revision": "100eb0c0a9c5b306ca2fb4f165df21d80ada4b82",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/kr/logfmt",
+            "branch": "master",
+            "revision": "b84e30acd515aadc4b783ad4ff83aff3299bdfe0",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "golang.org/x/net",
+            "branch": "master",
+            "revision": "d379faa25cbdc04d653984913a2ceb43b0bc46d7",
+            "packages": [
+                "context",
+                "context/ctxhttp"
+            ]
+        }
+    ]
+}
