@@ -27,3 +27,5 @@ func (stringService) Count(s string) int {
 
 // ErrEmpty returned when string is empty
 var ErrEmpty = errors.New("Empty string")
+
+type ServiceMiddleware func(StringService) StringService
